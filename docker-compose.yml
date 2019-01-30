@@ -20,8 +20,8 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: ${APP_NAME}
-            MYSQL_USER: sf4
-            MYSQL_PASSWORD: sf4
+            MYSQL_USER: root
+            MYSQL_PASSWORD: root
 
     php:
         build: .docker/php
